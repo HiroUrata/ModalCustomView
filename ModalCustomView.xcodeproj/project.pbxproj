@@ -13,6 +13,8 @@
 		540C4F412731245D00BD11D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C4F3F2731245D00BD11D0 /* Main.storyboard */; };
 		540C4F432731246A00BD11D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540C4F422731246A00BD11D0 /* Assets.xcassets */; };
 		540C4F462731246A00BD11D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C4F442731246A00BD11D0 /* LaunchScreen.storyboard */; };
+		540C4F4F273125AA00BD11D0 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C4F4D273125AA00BD11D0 /* ModalViewController.swift */; };
+		540C4F50273125AA00BD11D0 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540C4F4E273125AA00BD11D0 /* ModalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		540C4F422731246A00BD11D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540C4F452731246A00BD11D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540C4F472731246A00BD11D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540C4F4D273125AA00BD11D0 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		540C4F4E273125AA00BD11D0 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				540C4F392731245D00BD11D0 /* AppDelegate.swift */,
 				540C4F3B2731245D00BD11D0 /* SceneDelegate.swift */,
 				540C4F3D2731245D00BD11D0 /* ViewController.swift */,
+				540C4F4D273125AA00BD11D0 /* ModalViewController.swift */,
+				540C4F4E273125AA00BD11D0 /* ModalViewController.xib */,
 				540C4F3F2731245D00BD11D0 /* Main.storyboard */,
 				540C4F422731246A00BD11D0 /* Assets.xcassets */,
 				540C4F442731246A00BD11D0 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540C4F50273125AA00BD11D0 /* ModalViewController.xib in Resources */,
 				540C4F462731246A00BD11D0 /* LaunchScreen.storyboard in Resources */,
 				540C4F432731246A00BD11D0 /* Assets.xcassets in Resources */,
 				540C4F412731245D00BD11D0 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540C4F4F273125AA00BD11D0 /* ModalViewController.swift in Sources */,
 				540C4F3E2731245D00BD11D0 /* ViewController.swift in Sources */,
 				540C4F3A2731245D00BD11D0 /* AppDelegate.swift in Sources */,
 				540C4F3C2731245D00BD11D0 /* SceneDelegate.swift in Sources */,
@@ -295,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ModalCustomView.ModalCustomView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ModalCustomView.ModalCustomView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
